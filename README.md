@@ -6,7 +6,7 @@ Remarques:
 
 - Les DataProviders dans TestNG sont un autre moyen de passer les paramètres dans la fonction de test, l’autre étant les paramètres TestNG.
 - Le TestNG DataProvider est utilisé de la manière suivante :
-           -   @DataProvider (name = "name_of_dataprovider")
+            -   @DataProvider (name = "name_of_dataprovider")
               public Object[][] dpMethod() {
                   return new Object [][] { values}
               } 
